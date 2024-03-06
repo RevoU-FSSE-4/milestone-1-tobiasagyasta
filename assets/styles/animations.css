@@ -1,0 +1,21 @@
+@keyframes float-anim {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes typing {
+	from {
+		opacity: 0;
+		width: 60%;
+	}
+	to {
+		opacity: 100;
+		width: 100%;
+	}
+}
