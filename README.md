@@ -4,4 +4,4 @@
 
 #### By Tobias Agyasta (Team 2)
 
-[**Netlify deployment link**](https://striver-milestone1.netlify.app)
+[**Deployment link**](https://tobiashalomoan.site)

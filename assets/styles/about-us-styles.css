@@ -1,4 +1,4 @@
-.about-us-section {
+#about-us-section {
 	font-family: "Quattrocento", sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -86,11 +86,10 @@ span.material-symbols-outlined {
 }
 
 .influencers-card {
-	position: relative;
-	height: 500px;
-	width: 1000px;
-
-	left: calc(50% - 500px);
+	position: inherit;
+	height: auto;
+	width: 60vw;
+	margin: auto;
 	display: flex;
 }
 .influencers-card h1 {
@@ -99,7 +98,7 @@ span.material-symbols-outlined {
 
 .card {
 	display: flex;
-	height: 350px;
+	height: 55vh;
 	width: 500px;
 	background-color: #17141d;
 	border-radius: 10px;
@@ -110,6 +109,7 @@ span.material-symbols-outlined {
 	left: 0px;
 }
 .card-title {
+	font-size: 22px;
 	text-shadow: 0.1em 0.1em black;
 	transition: all 0.2s ease-in-out;
 	opacity: 0;
@@ -145,7 +145,42 @@ span.material-symbols-outlined {
 	height: 5px;
 	width: 150px;
 }
-.card-image img {
-	height: 500px;
-	width: 500px;
+
+@media screen and (max-width: 800px) {
+	.card {
+		height: 45vh;
+	}
+	.influencers-card {
+		width: 70vw;
+	}
 }
+@media screen and (max-width: 500px) {
+	.card {
+		height: 35vh;
+	}
+	.influencers-card {
+		width: 70vw;
+	}
+}
+/* .info-box {
+	margin-top: 100px;
+}
+
+#sam-info {
+	opacity: 0;
+	position: relative;
+	z-index: 0;
+	transition: 0.4s ease-out;
+}
+#cbum-info {
+	opacity: 0;
+	bottom: 2em;
+	position: relative;
+	z-index: 1;
+}
+#patty-info {
+	opacity: 0;
+	bottom: 4em;
+	position: relative;
+	z-index: 2;
+} */
