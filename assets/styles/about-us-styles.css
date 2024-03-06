@@ -87,10 +87,10 @@ span.material-symbols-outlined {
 
 .influencers-card {
 	position: relative;
-	height: 800px;
-	width: 600px;
+	height: 500px;
+	width: 1000px;
 
-	left: calc(50% - 300px);
+	left: calc(50% - 500px);
 	display: flex;
 }
 .influencers-card h1 {
@@ -99,8 +99,8 @@ span.material-symbols-outlined {
 
 .card {
 	display: flex;
-	height: 300px;
-	width: 300px;
+	height: 350px;
+	width: 500px;
 	background-color: #17141d;
 	border-radius: 10px;
 	box-shadow: -1rem 0 3rem #000;
@@ -108,6 +108,11 @@ span.material-symbols-outlined {
 	position: relative;
 	top: 80px;
 	left: 0px;
+}
+.card-title {
+	text-shadow: 0.1em 0.1em black;
+	transition: all 0.2s ease-in-out;
+	opacity: 0;
 }
 .card:not(:first-child) {
 	margin-left: -50px;
@@ -121,6 +126,9 @@ span.material-symbols-outlined {
 	position: relative;
 	left: 50px;
 	transition: 0.4s ease-out;
+}
+.card:hover > .card-title {
+	opacity: 1;
 }
 
 .card-title {
