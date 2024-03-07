@@ -132,15 +132,23 @@
 					</p>
 				</div>
 				<div class="blank"></div>
-				<h1>Our Influencers</h1>
+				<h1 class="header-one">Our Influencers</h1>
 				<div class="influencers-card">
-					<div class="card">
+					<div
+						class="card"
+						onmouseover="showText('sam')"
+						onmouseout="hideText('sam')"
+					>
 						<a href="https://www.instagram.com/sam_sulek/" class="card-title"
 							>Sam Sulek</a
 						>
 						<img class="card-image" src="assets/images/sam sulek.jpg" />
 					</div>
-					<div class="card">
+					<div
+						class="card"
+						onmouseover="showText('cbum')"
+						onmouseout="hideText('cbum')"
+					>
 						<a href="https://www.instagram.com/cbum" class="card-title"
 							>Chris Bumstead</a
 						>
@@ -150,9 +158,13 @@
 							<div class="filledbar"></div>
 						</div>
 					</div>
-					<div class="card">
+					<div
+						class="card"
+						onmouseover="showText('patty')"
+						onmouseout="hideText('patty')"
+					>
 						<a href="https://www.instagram.com/leanbeefpatty" class="card-title"
-							>Patricia Beef</a
+							>Lean Beef Patty</a
 						>
 						<img class="card-image" src="assets/images/lean-beef.jpg" />
 						<div class="bar">
@@ -161,53 +173,67 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="info-box">
-					<p id="sam-info">TEST</p>
-					<p id="cbum-info">TEST2</p>
-					<p id="patty-info">TEST3</p>
-				</div> -->
+				<div class="info-box">
+					<p id="sam-info">
+						Sam Sulek is one of the world's biggest fitness Youtubers, with over
+						2 million subscribers. He is well known for his daily workout vlogs
+						and "keeping it simple" workout philosophy.
+					</p>
+					<p id="cbum-info">
+						Christopher Bumstead, known by his fans as CBum, is a Canadian IFBB
+						Pro League professional bodybuilder. <br />Bumstead is the reigning
+						five-time Mr. Olympia Classic Physique Champion, winning five
+						consecutive titles from 2019 to 2023.
+					</p>
+					<p id="patty-info">
+						Lean Beef Patty is a fitness influencer and bodybuilder who has made
+						several trend-setting fitness video tropes on TikToks and Instagram.
+					</p>
+				</div>
 			</section>
-			<section id="products-section"></section>
-			<div class="header-one">
-				<h1>Our Products</h1>
-			</div>
-			<div class="products-grid">
-				<div class="equipment-product">
-					<img src="assets/images/equipment-products.jpg" />
-					<a href="#"><button class="big-image-btn">Gym Equipment</button></a>
+			<section id="products-section">
+				<div class="header-one">
+					<h1>Our Products</h1>
 				</div>
-				<div class="clothing-product">
-					<img src="assets/images/outfit-products.jpg" alt="" />
-					<a href="#"><button class="big-image-btn">Gym Wear</button></a>
+				<div class="products-grid">
+					<div class="equipment-product">
+						<img src="assets/images/equipment-products.jpg" />
+						<a href="#"><button class="big-image-btn">Gym Equipment</button></a>
+					</div>
+					<div class="clothing-product">
+						<img src="assets/images/outfit-products.jpg" alt="" />
+						<a href="#"><button class="big-image-btn">Gym Wear</button></a>
+					</div>
+					<div class="footwear-products">
+						<img src="assets/images/footwear-products.jpg" />
+						<a href="#"
+							><button class="small-image-btn left">Foot Wear</button></a
+						>
+					</div>
+					<div class="home-equipment-product">
+						<img src="assets/images/home-equiment-products.jpg" alt="" />
+						<a href="#"
+							><button class="small-image-btn right">Home Equipment</button></a
+						>
+					</div>
+					<div class="supplement-product">
+						<img src="assets/images/powders-product.jpg" />
+						<a href="#"
+							><button class="small-image-btn left">Supplements</button></a
+						>
+					</div>
+					<div class="health-wellness-product">
+						<img src="assets/images/health-and-wellness-products.jpg" alt="" />
+						<a href="#"
+							><button class="small-image-btn right">
+								Health and Wellness
+							</button></a
+						>
+					</div>
 				</div>
-				<div class="footwear-products">
-					<img src="assets/images/footwear-products.jpg" />
-					<a href="#"
-						><button class="small-image-btn left">Foot Wear</button></a
-					>
-				</div>
-				<div class="home-equipment-product">
-					<img src="assets/images/home-equiment-products.jpg" alt="" />
-					<a href="#"
-						><button class="small-image-btn right">Home Equipment</button></a
-					>
-				</div>
-				<div class="supplement-product">
-					<img src="assets/images/powders-product.jpg" />
-					<a href="#"
-						><button class="small-image-btn left">Supplements</button></a
-					>
-				</div>
-				<div class="health-wellness-product">
-					<img src="assets/images/health-and-wellness-products.jpg" alt="" />
-					<a href="#"
-						><button class="small-image-btn right">
-							Health and Wellness
-						</button></a
-					>
-				</div>
-			</div>
+			</section>
+			<footer></footer>
 		</main>
-		<footer></footer>
+		<script src="script.js"></script>
 	</body>
 </html>

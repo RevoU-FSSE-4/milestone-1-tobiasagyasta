@@ -153,6 +153,9 @@ span.material-symbols-outlined {
 	.influencers-card {
 		width: 70vw;
 	}
+	.info-box {
+		margin-top: 15vw !important;
+	}
 }
 @media screen and (max-width: 500px) {
 	.card {
@@ -161,26 +164,29 @@ span.material-symbols-outlined {
 	.influencers-card {
 		width: 70vw;
 	}
+	.info-box {
+		margin-top: 25vw !important;
+	}
 }
-/* .info-box {
-	margin-top: 100px;
+.info-box {
+	margin-top: 10vw;
 }
 
 #sam-info {
-	opacity: 0;
+	font-size: 1.2em;
+	display: none;
 	position: relative;
-	z-index: 0;
-	transition: 0.4s ease-out;
+	animation: fadeIn 0.5s ease-in;
 }
 #cbum-info {
-	opacity: 0;
-	bottom: 2em;
+	font-size: 1.2em;
+	display: none;
 	position: relative;
-	z-index: 1;
+	animation: fadeIn 0.5s ease-in;
 }
 #patty-info {
-	opacity: 0;
-	bottom: 4em;
+	font-size: 1.2em;
+	display: none;
 	position: relative;
-	z-index: 2;
-} */
+	animation: fadeIn 0.5s ease-in;
+}

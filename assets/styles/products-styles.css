@@ -1,5 +1,5 @@
 #products-section {
-	margin-top: 15vw;
+	margin-top: 20vw;
 }
 
 .products-grid {
@@ -107,4 +107,64 @@
 }
 .right {
 	right: 10%;
+}
+
+@media screen and (max-width: 600px) {
+	.products-grid {
+		grid-gap: 1px;
+		grid-template-rows: repeat(6, 1fr) !important;
+	}
+	.equipment-product {
+		grid-column: span 4 !important;
+		grid-row: 1 / 1 span !important;
+	}
+	.clothing-product {
+		grid-row: 2 / span 1 !important;
+		grid-column: span 4 !important;
+	}
+	.footwear-products {
+		grid-row: 3 / span 1 !important;
+		grid-column: span 4 !important;
+	}
+	.home-equipment-product {
+		grid-row: 4 / span 1 !important;
+		grid-column: span 4 !important;
+	}
+	.supplement-product {
+		grid-row: 5 / span 1 !important;
+		grid-column: span 4 !important;
+	}
+	.health-wellness-product {
+		grid-row: 6 / span 1 !important;
+		grid-column: span 4 !important;
+	}
+	.left {
+		left: 0px;
+	}
+	.right {
+		right: 0px;
+	}
+	.health-wellness-product img {
+		margin: auto;
+	}
+	.home-equipment-product img {
+		margin: auto;
+	}
+	.footwear-products img {
+		margin: auto;
+	}
+	.supplement-product img {
+		margin: auto;
+	}
+	.products-grid button {
+		bottom: 12%;
+		height: 2.5em;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#products-section {
+		margin-top: 30vw;
+	}
 }
