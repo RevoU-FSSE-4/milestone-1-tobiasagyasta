@@ -87,6 +87,9 @@ textarea::placeholder {
 		width: 85%;
 		resize: none;
 	}
+	.company-logo-footer {
+		display: none;
+	}
 }
 
 footer {
