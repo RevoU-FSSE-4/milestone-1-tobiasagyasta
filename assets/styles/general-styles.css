@@ -75,19 +75,49 @@ button.headline {
 button.headline:hover {
 	text-decoration: underline;
 }
+@media screen and (max-width: 1500px) {
+	.headline {
+		top: 30%;
+		font-size: 55px;
+	}
 
+	p.headline {
+		top: 55%;
+		font-size: 40px;
+	}
+	button.headline {
+		top: 70%;
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.headline {
+		top: 30%;
+		font-size: 45px;
+	}
+
+	p.headline {
+		top: 50%;
+		font-size: 30px;
+	}
+	button.headline {
+		top: 66%;
+		font-size: 25px;
+	}
+}
 @media screen and (max-width: 800px) {
 	.headline {
-		top: 50%;
+		top: 40%;
 		font-size: 35px;
 	}
 
 	p.headline {
-		top: 72%;
+		top: 60%;
 		font-size: 20px;
 	}
 	button.headline {
-		top: 80%;
+		top: 75%;
 		font-size: 15px;
 	}
 }
@@ -99,12 +129,12 @@ button.headline:hover {
 	}
 
 	p.headline {
-		top: 73%;
+		top: 72%;
 		font-size: 15px;
 	}
 	button.headline {
 		width: 20%;
-		top: 79%;
+		top: 77%;
 		font-size: 10px;
 	}
 }

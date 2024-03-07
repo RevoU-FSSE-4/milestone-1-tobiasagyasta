@@ -1,0 +1,135 @@
+.press-release-items {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+.news-module {
+	margin: 5px;
+	min-width: 270px;
+	width: 25%;
+	height: 450px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+	transition: all 0.3s linear 0s;
+	overflow: hidden;
+	position: relative;
+}
+
+.news-thumbnail {
+	position: relative;
+	overflow: hidden;
+	background: black;
+}
+.news-thumbnail img {
+	width: 100%;
+	transition: all 0.3s;
+}
+.news-module:hover .news-thumbnail img {
+	transform: scale(1.1);
+	opacity: 0.6;
+}
+.content {
+	font-family: "Quattrocento", sans-serif;
+	font-weight: 800;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 178px;
+	bottom: 0;
+	background: #fff;
+	padding: 30px;
+	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+}
+
+.news-module:hover .content {
+	height: 278px;
+}
+
+.content .category {
+	position: absolute;
+	top: -34px;
+	left: 0;
+	color: #fff;
+	text-transform: uppercase;
+	background: #a82424;
+	padding: 10px 15px;
+	font-weight: bold;
+}
+.title {
+	margin-right: 13%;
+	padding: 0 0 10px;
+	color: #333333;
+	font-size: 24px;
+	font-weight: 700;
+}
+.sub-title {
+	margin-right: 14%;
+	padding: 0 0 20px;
+	color: #a82424;
+	font-size: 20px;
+	font-weight: 500;
+}
+.description {
+	margin-right: 15%;
+	color: #333232;
+	font-size: 14px;
+	line-height: 1.8em;
+	height: 0;
+	opacity: 1;
+	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	overflow: hidden;
+}
+.news-module:hover .description {
+	height: 100px;
+}
+.meta {
+	margin: 30px 0 0;
+	color: #999999;
+}
+.meta span {
+	margin: auto;
+	padding: 0px 10px;
+}
+
+@media screen and (max-width: 700px) {
+	.press-release-items {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.news-module {
+		min-width: 270px;
+		width: 35%;
+		height: 390px;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+		transition: all 0.3s linear 0s;
+		overflow: hidden;
+		position: relative;
+	}
+	.news-module:hover .description {
+		height: 50px;
+	}
+	.title {
+		margin-right: 20%;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.sub-title {
+		margin-right: 20%;
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.description {
+		margin-right: 20%;
+		color: #333232;
+		font-size: 10px;
+		transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+		overflow: hidden;
+	}
+	.news-module:hover .content {
+		height: 220px;
+	}
+	.meta {
+		font-size: 10px;
+		color: #999999;
+	}
+}
