@@ -144,3 +144,7 @@ button.headline:hover {
 	font-size: 42px;
 	font-weight: bolder;
 }
+
+section {
+	margin: 100px 0;
+}
