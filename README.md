@@ -105,6 +105,7 @@ This website features:
 ![Carousel](assets/readme/carousel.gif)
 
 - Compatibility with mobile viewports
-  ![Responsive](assets/readme/responsiveness.png)
+
+![Responsive](assets/readme/responsiveness.png)
 
 This website used [Google Icons](https://fonts.google.com/icons) and stock images from [Unsplash](https://unsplash.com/)
