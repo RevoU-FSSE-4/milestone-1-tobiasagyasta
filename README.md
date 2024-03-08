@@ -109,3 +109,15 @@ This website features:
 ![Responsive](assets/readme/responsiveness.png)
 
 This website used [Google Icons](https://fonts.google.com/icons) and stock images from [Unsplash](https://unsplash.com/)
+
+## Google Lighthouse Results
+
+[Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) gave the website a :
+
+93 score on Accessibility
+
+![Accessibility](assets/readme/acessibility.png)
+
+96 score on SEO
+
+![SEO](assets/readme/seo.png)
