@@ -9,7 +9,9 @@ nav {
 	width: 19rem;
 	height: 10rem;
 }
-nav > ul {
+nav > a {
+	color: white;
+	text-decoration: none;
 	white-space: nowrap;
 	height: auto;
 	overflow: visible;
@@ -24,22 +26,18 @@ nav > ul {
 	nav {
 		padding-bottom: 30px;
 	}
-	nav > ul {
+	nav > a {
 		margin: 0px;
 		padding: 0px;
 		flex-direction: column;
 	}
-	ul > a {
-		padding: 0px;
-		font-size: 18px;
-	}
 }
-ul > a {
+nav > a {
 	color: white;
 	text-decoration: none;
 	font-size: 22px;
 	padding: 0 20px;
 }
-ul > a:hover {
+nav > a:hover {
 	text-decoration: underline;
 }
